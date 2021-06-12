@@ -1,3 +1,4 @@
 neattext
 wordcloud
 textblob
+textblob.download_corpora
