@@ -1,4 +1,4 @@
 neattext
 wordcloud
 textblob
-textblob.download_corpora
+python -m textblob.download_corpora
