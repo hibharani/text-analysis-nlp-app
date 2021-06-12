@@ -19,6 +19,7 @@ from PIL import Image
 import os
 from pathlib import Path
 
+import nltk_utils
 
 HTML_BANNER = """
     <div style="background-color:#3872fb;padding:10px;border-radius:10px;border-style:ridge;">
