@@ -1,5 +1,3 @@
 neattext
 wordcloud
 textblob
-pip 21.1.2
-python -m textblob.download_corpora
