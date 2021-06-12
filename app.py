@@ -20,10 +20,7 @@ import os
 from pathlib import Path
 
 
-import subprocess
-cmd = ['python', '-m', 'textblob.download_corpora']
-subprocess.run(cmd)
-print("Working")
+import nltk_utils
 
 
 HTML_BANNER = """
