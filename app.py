@@ -19,7 +19,12 @@ from PIL import Image
 import os
 from pathlib import Path
 
-import nltk_utils
+
+import subprocess
+cmd = ['python3', '-m', 'textblob.download_corpora']
+subprocess.run(cmd)
+print("Working")
+
 
 HTML_BANNER = """
     <div style="background-color:#3872fb;padding:10px;border-radius:10px;border-style:ridge;">
